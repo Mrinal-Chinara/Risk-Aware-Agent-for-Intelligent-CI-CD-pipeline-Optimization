@@ -1,0 +1,10 @@
+pip install pandas numpy scikit-learn xgboost joblib gymnasium stable-baselines3 streamlit streamlit-autorefresh ploty
+
+train model- python train.py -> python rl_train.py -> python evaluate.py(optional)
+
+python app.py
+streamlit run dashboard.py
+
+if streamlit error ->
+do -> pip install streamlit streamlit-autorefresh ploty
+pyhton -m streamlit run dashboard.py
